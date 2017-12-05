@@ -1,0 +1,7 @@
+#!/usr/local/bin/python2.7
+#coding:utf-8
+import logging
+import logging.config
+logging.config.fileConfig("logger.conf")
+logger = logging.getLogger("tengxun")
+logger.info('程序开始执行')
